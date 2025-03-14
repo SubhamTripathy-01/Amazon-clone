@@ -51,6 +51,7 @@
     width: 620px;
     height: 40px;
     border-radius: 5px;
+    border: 2px solid transparent;
 }
 
 .search-select{
@@ -79,4 +80,70 @@
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     color:#0f1111
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+span{
+    font-size: 0.7rem;
+}
+
+.nev-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* panel */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-opt p{
+    display: inline;
+    margin-left: 12px;
+    border: 1.5px solid transparent;
+}
+.panel-opt{
+    width: 75%;
+    font-size: 0.85rem;
+}
+.for-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hero section */
+.hero-section{
+    background-image: url(/assets/images/home-hero-img.jpg);
+    background-size: cover;
+    width: 1500px;
+    height: 400px;
+}
+
+/**Shop section**/
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e6e6e6;
+}
+.box{
+    width: 300px;
+    height: 420px;
+    background-color: #ffffff;
 }
