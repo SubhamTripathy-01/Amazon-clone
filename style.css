@@ -179,7 +179,7 @@ span{
     width: 156px;
 }
 
-.foot-panel1{
+.foot-panel1 a{
     background-color: #37475a;
     color: #ffffff;
     height: 50px;
@@ -188,6 +188,8 @@ span{
     align-items: center;
     font-size: 15px;
 }
+
+/* @media key  */
 
 .foot-panel2{
     background-color: #222f3d;
@@ -217,5 +219,35 @@ ul a{
 .foot-panel3{
     background-color: #222f3d;
     color: white;
-    border-top: 1.5px solid transparent;
+    border-top:1.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(/assets/images/logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 100px;
+    font-size: 0.7rem;
+    text-align: center;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;*/
+} 
+
+.pages{
+    padding-top: 25px;
+}
+.copy-right{
+    padding-top: 5px;
 }
