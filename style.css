@@ -132,7 +132,7 @@ span{
 .hero-section{
     background-image: url(/assets/images/home-hero-img.jpg);
     background-size: cover;
-    width: 1500px;
+    width: 1213px;
     height: 400px;
 }
 
@@ -141,9 +141,54 @@ span{
     display: flex;
     justify-content: space-evenly;
     background-color: #e6e6e6;
+    padding-bottom: 30px;
 }
 .box{
-    width: 300px;
-    height: 420px;
+    width: 30%;
+    height: 400px;
     background-color: #ffffff;
+    padding: 20px 0px 15px;
+    margin-top: 30px;
+}
+
+.box-img{
+    height: 305px;
+    width: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-bottom: 27px;
+}
+
+.box-content{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.box-content p {
+    color: #007185;
+}
+
+.content-card{
+    font-size: 12px;
+    display: flex;
+}
+
+.card-img{
+    height: 116px;
+    width: 156px;
+}
+
+footer{
+    mar
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    color: #ffffff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
 }
