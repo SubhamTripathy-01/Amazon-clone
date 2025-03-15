@@ -132,7 +132,7 @@ span{
 .hero-section{
     background-image: url(/assets/images/home-hero-img.jpg);
     background-size: cover;
-    width: 1213px;
+    width: 1340px;
     height: 400px;
 }
 
@@ -161,8 +161,8 @@ span{
 }
 
 .box-content{
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 .box-content p {
@@ -179,10 +179,6 @@ span{
     width: 156px;
 }
 
-footer{
-    
-}
-
 .foot-panel1{
     background-color: #37475a;
     color: #ffffff;
@@ -191,4 +187,35 @@ footer{
     justify-content: center;
     align-items: center;
     font-size: 15px;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: #ffffff;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul p{
+    margin: 6px 0px 14px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+ul a{
+    color: #dddddd;
+    display: block;
+    font-size: 14px;
+    margin: 0px 0px 10px;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 1.5px solid transparent;
 }
