@@ -4,6 +4,11 @@
     border: border-box;
 }
 
+html,body{
+    scroll-behavior: smooth;
+    padding-top: 0px;
+}
+
 .border{
     border: 1.5px solid transparent;
 }
@@ -84,6 +89,18 @@
 
 .nav-search:hover{
     border: 2px solid orange;
+}
+ul {
+    list-style-type: none;
+}
+ul li:hover {
+    text-decoration: underline;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.85rem;
+
 }
 
 span{
@@ -246,6 +263,13 @@ ul a{
 
 .pages{
     padding-top: 25px;
+}
+
+.foot-link {
+    color: #ffffff;
+    font-size: 0.7rem;
+    margin: 0px 5px;
+    text-decoration: none;
 }
 .copy-right{
     padding-top: 5px;
